@@ -1,0 +1,34 @@
+<template name="contratosShort">
+			{{nombre}} - {{cliente}} - {{cuenta}}, {{tipoContrato}} - {{estadoContrato}}
+</template>
+
+<template name="contratosListTemplate">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12">
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="col-xs-12 col-sm-12">Contrato</th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each contratosVar}}
+						<tr>
+							<td>{{>contratosShort}}</td>
+							<td><a href="{{pathFor 'contratosShowTemplate'}}" class="btn btn-info">D</a></td>
+							<td><a href="{{pathFor 'contratosUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+						</tr>
+					{{/each}}
+				</tbody>
+				
+						
+			</table>
+
+
+		</div>
+		<a href="{{pathFor 'contratosNewTemplate'}}" class="btn btn-success">N</a>
+	</div>
+</template>

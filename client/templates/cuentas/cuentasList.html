@@ -1,0 +1,34 @@
+<template name="cuentasShort">
+	{{nombre}} - Cortable: {{ indCortable }} - T Vcto: {{tipoVencimiento}} - T Emisión: {{tipoEmision}} - F Pago: {{formaPago}} - Dom Postal: {{dirPostalId}}
+</template>
+
+<template name="cuentasListTemplate">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12">
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="col-xs-12 col-sm-12">Cuenta</th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each cuentasVar}}
+						<tr>
+							<td>{{>cuentasShort}}</td>
+							<td><a href="{{pathFor 'cuentasShowTemplate'}}" class="btn btn-info">D</a></td>
+							<td><a href="{{pathFor 'cuentasUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+						</tr>
+					{{/each}}
+				</tbody>
+				
+						
+			</table>
+
+
+		</div>
+		<a href="{{pathFor 'cuentasNewTemplate'}}" class="btn btn-success">N</a>
+	</div>
+</template>

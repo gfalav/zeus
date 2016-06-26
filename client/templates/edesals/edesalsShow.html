@@ -1,0 +1,11 @@
+<template name="edesalsShowTemplate">
+	<div class="col-xs-12 col-sm-12">
+	  {{#autoForm collection="Edesals" id="showCustonEdesalsForm" doc=this type="readonly" }}
+
+	  	{{> edesalsForm}}
+
+	  {{/autoForm}}
+	</div>
+	<td><a href="{{pathFor 'edesalsUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+	<td><a href="{{pathFor 'edesalsListTemplate'}}" class="btn btn-default">Back</a></td>
+</template>

@@ -1,0 +1,34 @@
+<template name="suministrosShort">
+			{{apellido}} {{apellido2}}, {{nombres}} - {{documentoNro}}
+</template>
+
+<template name="suministrosListTemplate">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12">
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="col-xs-12 col-sm-12">Suministro</th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each suministrosVar}}
+						<tr>
+							<td>{{>suministrosShort}}</td>
+							<td><a href="{{pathFor 'suministrosShowTemplate'}}" class="btn btn-info">D</a></td>
+							<td><a href="{{pathFor 'suministrosUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+						</tr>
+					{{/each}}
+				</tbody>
+				
+						
+			</table>
+
+
+		</div>
+		<a href="{{pathFor 'suministrosNewTemplate'}}" class="btn btn-success">N</a>
+	</div>
+</template>

@@ -1,0 +1,11 @@
+<template name="suministrosShowTemplate">
+	<div class="col-xs-12 col-sm-12">
+	  {{#autoForm collection="Suministros" id="showCustonSuministrosForm" doc=this type="readonly" }}
+
+	  	{{> suministrosForm}}
+
+	  {{/autoForm}}
+	</div>
+	<td><a href="{{pathFor 'suministrosUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+	<td><a href="{{pathFor 'suministrosListTemplate'}}" class="btn btn-default">Back</a></td>
+</template>

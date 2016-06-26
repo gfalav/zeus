@@ -1,0 +1,12 @@
+<template name="contratosNewTemplate">
+	<div class="col-xs-12 col-sm-12">
+	  	{{#autoForm collection="Contratos" id="insertCustonContratosForm" type="method" meteormethod="contratosNew" }}
+
+	  		{{> contratosForm}}
+
+	    	<button type="submit" class="btn btn-danger">Enviar</button>
+	  	{{/autoForm}}
+
+		<td><a href="{{pathFor 'contratosListTemplate'}}" class="btn btn-default">Back</a></td>
+	</div>
+</template>

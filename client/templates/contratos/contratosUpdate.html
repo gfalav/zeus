@@ -1,0 +1,13 @@
+<template name="contratosUpdateTemplate">
+	<div class="col-xs-12 col-sm-12">
+	  {{#autoForm collection="Contratos" id="updateCustonContratosForm" doc=this type="method" meteormethod="contratosUpdate" }}
+
+	  	{{> contratosForm}}
+
+	    <button type="submit" class="btn btn-danger">Enviar</button>
+		
+	  {{/autoForm}}
+	</div>
+	<td><a href="{{pathFor 'contratosShowTemplate'}}" class="btn btn-info">D</a></td>
+	<td><a href="{{pathFor 'contratosListTemplate'}}" class="btn btn-default">Back</a></td>
+</template>
