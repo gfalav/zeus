@@ -1,4 +1,12 @@
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.6em;
+	font-size: 1.4em;
+}
+
+.pie {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	margin-top: 20px;
+	font-size: 0.7em;
 }
