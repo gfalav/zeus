@@ -10,3 +10,7 @@ body {
 	margin-top: 20px;
 	font-size: 0.7em;
 }
+
+.principal {
+	min-height: 800px;
+}
