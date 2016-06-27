@@ -4,6 +4,13 @@ Template.clientesNewTemplate.events({
 	}
 })
 
+Template.clientesShowTemplate.events({
+	"click button.btn.btn-info": function(e){
+		Currents.insert({"entorno": "AtClientes", "tipo":"idCliente", "idCollection":this._id, "fLog": new Date, "usuario": Meteor.userId()})
+		Router.go('clientesListTemplate');
+	}
+})
+
 Template.clientesUpdateTemplate.events({
 	"submit form": function(e){
 		Router.go('clientesListTemplate');
