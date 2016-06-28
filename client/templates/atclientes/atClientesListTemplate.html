@@ -1,0 +1,28 @@
+<template name="atClientesListTemplate">
+	<div class="container-fluid">
+		<div class="col-xs-12 col-sm-12">
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="col-xs-12 col-sm-12">Resultados de la Búsqueda</th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+						<th class="col-xs-12 col-sm-1"></th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each resultsVar}}
+						<tr>
+							<td>{{> resultDetails }}</td>
+							<td><button type="submit" class="btn btn-info">S</button></td>
+						</tr>
+					{{/each}}
+				</tbody>						
+			</table>
+		</div>
+	</div>
+</template>
+
+<template name="resultDetails">
+	{{apellido}}, {{nombres}} - {{documentoNro}} - {{suministro}} - {{direccionSum}}
+</template>

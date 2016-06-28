@@ -7,6 +7,7 @@ Meteor.methods({
 			doc.fBaja = new Date();
 			doc.usuario = this.userId;
 			var contrato = Contratos.insert(doc);			
+			Currents.insert({"entorno": "AtClientes", "tipo":"idContrato", "idCollection":contrato, "fLog": new Date, "usuario":this.userId})
 		}
 	},
 
@@ -16,6 +17,7 @@ Meteor.methods({
 			doc.fUM = new Date();
 			doc.usuario = this.userId;
 			var contrato = Contratos.update(doc._id, {$set: doc} );
+			Currents.insert({"entorno": "AtClientes", "tipo":"idContrato", "idCollection":doc._id, "fLog": new Date, "usuario":this.userId})
 		}
 	}
 

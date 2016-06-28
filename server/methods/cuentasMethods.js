@@ -6,7 +6,8 @@ Meteor.methods({
 			doc.fUM = new Date();
 			doc.fBaja = new Date();
 			doc.usuario = this.userId;
-			var cuenta = Cuentas.insert(doc);			
+			var cuenta = Cuentas.insert(doc);
+			Currents.insert({"entorno": "AtClientes", "tipo":"idCuenta", "idCollection":cuenta, "fLog": new Date, "usuario":this.userId})
 		}
 	},
 
@@ -16,6 +17,7 @@ Meteor.methods({
 			doc.fUM = new Date();
 			doc.usuario = this.userId;
 			var cuenta = Cuentas.update(doc._id, {$set: doc} );
+			Currents.insert({"entorno": "AtClientes", "tipo":"idCuenta", "idCollection":doc._id, "fLog": new Date, "usuario":this.userId})
 		}
 	}
 

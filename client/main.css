@@ -12,5 +12,19 @@ body {
 }
 
 .principal {
-	min-height: 800px;
+	min-height: 580px;
+}
+
+.panel-izquierdo {
+	background-color: #D5E4E6;
+	border: 1px solid grey;
+	min-height: 580px;
+	font-size: 0.7em;
+}
+
+.panel-derecho {
+	background-color: #DAF1F2;
+	border: 1px solid grey;
+	min-height: 580px;
+	font-size: 0.7em;
 }

@@ -1,3 +1,3 @@
-Meteor.publish('contratosPublish', function() {
-	return Contratos.find();
+Meteor.publish('contratosPublish', function(cuentaId) {
+	return Contratos.find({"cuentaId": cuentaId});
 })

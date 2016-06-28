@@ -17,11 +17,14 @@ Template.clientesUpdateTemplate.events({
 	}
 })
 
+Template.clientesListTemplate.events({
+	"click button.btn.btn-info": function(e){
+		Currents.insert({"entorno": "AtClientes", "tipo":"idCliente", "idCollection":this._id, "fLog": new Date, "usuario": Meteor.userId()})
+	}
+})
+
 Template.clientesListTemplate.helpers({
 	clientesVar: function() {
 		return Clientes.find();
 	}
 })
-
-
-Meteor.subscribe('clientesPublish');

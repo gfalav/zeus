@@ -7,6 +7,7 @@ Meteor.methods({
 			doc.fBaja = new Date();
 			doc.usuario = this.userId;
 			var edesal = Edesals.insert(doc);			
+			Currents.insert({"entorno": "AtClientes", "tipo":"idEdesal", "idCollection":edesal, "fLog": new Date, "usuario":this.userId})
 		}
 	},
 
@@ -16,6 +17,7 @@ Meteor.methods({
 			doc.fUM = new Date();
 			doc.usuario = this.userId;
 			var edesal = Edesals.update(doc._id, {$set: doc} );
+			Currents.insert({"entorno": "AtClientes", "tipo":"idEdesal", "idCollection":doc._id, "fLog": new Date, "usuario":this.userId})
 		}
 	}
 

@@ -18,8 +18,9 @@
 					{{#each clientesVar}}
 						<tr>
 							<td>{{>clientesShort}}</td>
-							<td><a href="{{pathFor 'clientesShowTemplate'}}" class="btn btn-info">D</a></td>
+							<td><a href="{{pathFor 'clientesShowTemplate'}}" class="btn btn-primary">D</a></td>
 							<td><a href="{{pathFor 'clientesUpdateTemplate'}}" class="btn btn-warning">E</a></td>
+							<td><button type="submit" class="btn btn-info">S</button></td>
 						</tr>
 					{{/each}}
 				</tbody>

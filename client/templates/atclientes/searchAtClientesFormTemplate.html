@@ -1,0 +1,21 @@
+<template name="searchAtClientesForm">
+	<div class="col-xs-12 col-sm-12">
+	  	{{#autoForm collection="BuscaClientes" id="buscaClientesForm" type="method" meteormethod="atBusca"}}
+
+			<fieldset>
+			<legend>Busquedas</legend>
+		   		{{> afQuickField name='apellido'}}
+		   		{{> afQuickField name='nombres'}}
+		   		{{> afQuickField name='documentoNro'}}
+		   		{{> afQuickField name='nombreSum'}}
+		   		{{> afQuickField name='dirSumId'}}
+		   		{{> afQuickField name='medidorNro'}}
+			</fieldset>
+
+		   	<button type="submit" class="btn btn-danger searchAt">Busca</button>
+	  	{{/autoForm}}
+
+	   	
+	</div>
+
+</template>
