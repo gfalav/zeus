@@ -16,15 +16,17 @@ body {
 }
 
 .panel-izquierdo {
-	background-color: #D5E4E6;
 	border: 1px solid grey;
+	background-color: #D5E4E6;
+	min-height: 580px;
+	font-size: 0.75em;
+}
+
+.panel-derecho {
 	min-height: 580px;
 	font-size: 0.7em;
 }
 
-.panel-derecho {
-	background-color: #DAF1F2;
-	border: 1px solid grey;
-	min-height: 580px;
-	font-size: 0.7em;
+.atClientesStruct {
+	padding-top: 10px;
 }

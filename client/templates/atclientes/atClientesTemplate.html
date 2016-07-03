@@ -1,12 +1,10 @@
 <template name="atClientesTemplate">
-	<div class="container-fluid">
-		<div class="col-xs-12 col-sm-12">
-			<div class="col-xs-2 col-sm-2 panel-izquierdo">
-			{{> searchAtClientesForm}}
-			</div>
-			<div class="col-xs-10 col-sm-10 panel-derecho">
-			{{> atClientesListTemplate}}
-			</div>
+	<div class="col-xs-12 col-sm-12">
+		<div class="col-xs-3 col-sm-3 panel-izquierdo">
+		{{> atClientesStructTemplate}}
+		</div>
+		<div class="col-xs-9 col-sm-9 panel-derecho">
+		{{> atClientesListTemplate}}
 		</div>
 	</div>
 </template>
