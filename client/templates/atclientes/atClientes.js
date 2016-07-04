@@ -12,3 +12,19 @@ Template.atClientesListTemplate.helpers({
 		return Clientes.find({});
 	}
 })
+
+Template.atClientesTreeTemplate.helpers({
+	apellido: function() {
+		return this.apellido + " " + this.apellido2 + ", " + this.nombres;
+	},
+	cuentasCount: function () {
+		return Cuentas.find({clienteId: this._id}).count();
+	}
+})
+
+Template.atClientesTreeTemplate.onCreated(function () {
+	if (typeof cuentaSubscript !== 'undefined') {
+    		cuentaSubscript.stop();
+    };
+	cuentaSubscript = Meteor.subscribe('cuentasPublish', this.data._id);
+})

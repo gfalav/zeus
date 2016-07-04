@@ -15,6 +15,3 @@ Template.cuentasListTemplate.helpers({
 		return Cuentas.find();
 	}
 })
-
-
-Meteor.subscribe('cuentasPublish');
