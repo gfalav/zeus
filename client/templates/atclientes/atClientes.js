@@ -19,6 +19,10 @@ Template.atClientesTreeTemplate.helpers({
 	},
 	cuentasCount: function () {
 		return Cuentas.find({clienteId: this._id}).count();
+	},
+
+	contratosCount: function() {
+		return Contratos.find({clienteId: this._id}).count();
 	}
 })
 
@@ -27,4 +31,9 @@ Template.atClientesTreeTemplate.onCreated(function () {
     		cuentaSubscript.stop();
     };
 	cuentaSubscript = Meteor.subscribe('cuentasPublish', this.data._id);
+
+	if (typeof contratoSubscript !== 'undefined') {
+    		contratoSubscript.stop();
+    };
+	contratoSubscript = Meteor.subscribe('contratosPublish', this.data._id);
 })
