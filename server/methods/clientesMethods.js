@@ -7,7 +7,8 @@ Meteor.methods({
 			doc.fBaja = new Date();
 			doc.usuario = this.userId;
 			var cliente = Clientes.insert(doc);
-			Currents.insert({"entorno": "AtClientes", "tipo":"idCliente", "idCollection":cliente, "action": "insert", "fLog": new Date, "usuario":this.userId})
+			Currents.insert({"entorno": "AtClientes", "tipo":"idCliente", "idCollection":cliente, "action": "insert", "fLog": new Date, "usuario":this.userId});
+			return cliente;
 		}
 	},
 
@@ -18,6 +19,7 @@ Meteor.methods({
 			doc.usuario = this.userId;
 			var cliente = Clientes.update(doc._id, {$set: doc} );
 			Currents.insert({"entorno": "AtClientes", "tipo":"idCliente", "idCollection":doc._id, "action": "update","fLog": new Date, "usuario":this.userId})
+			return cliente;
 		}
 	}
 

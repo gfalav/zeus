@@ -3,7 +3,7 @@
 	  	{{#autoForm collection="BuscaClientes" id="buscaClientesForm" type="method" meteormethod="atBusca"}}
 
 			<fieldset>
-			<legend>Busquedas</legend>
+				<legend>Busquedas</legend>
 		   		{{> afQuickField name='apellido'}}
 		   		{{> afQuickField name='nombres'}}
 		   		{{> afQuickField name='documentoNro'}}
@@ -13,7 +13,8 @@
 			</fieldset>
 
 		   	<button type="submit" class="btn btn-danger">Busca</button>
-		   	<a href="#" class="btn btn-default">Back</a>
+		   	<a href="{{pathFor 'clientesNewTemplate'}}" class="btn btn-default">Nuevo Cliente</a>
+		   	<a href="#" class="btn btn-default">Alta Aabreviada</a>
 	  	{{/autoForm}}
 
 	   	

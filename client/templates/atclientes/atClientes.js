@@ -3,7 +3,7 @@ Template.atClientesFormSearchTemplate.events({
 		if (typeof clienteSubscript !== 'undefined') {
     		clienteSubscript.stop();
     	};
-		clienteSubscript = Meteor.subscribe('clientesPublish', e.target.apellido.value, e.target.nombres.value, e.target.documentoNro.value);
+		clienteSubscript = Meteor.subscribe('clientesPublish', null, e.target.apellido.value, e.target.nombres.value, e.target.documentoNro.value);
 	}
 })
 
@@ -15,7 +15,11 @@ Template.atClientesListTemplate.helpers({
 
 Template.atClientesTreeTemplate.helpers({
 	apellido: function() {
-		return this.apellido + " " + this.apellido2 + ", " + this.nombres;
+		if (typeof this.apellido !== 'undefined') {
+			return this.apellido + " " + this.apellido2 + ", " + this.nombres;
+		} else {
+			return "";
+		}
 	},
 	cuentasCount: function () {
 		return Cuentas.find({clienteId: this._id}).count();
@@ -24,16 +28,4 @@ Template.atClientesTreeTemplate.helpers({
 	contratosCount: function() {
 		return Contratos.find({clienteId: this._id}).count();
 	}
-})
-
-Template.atClientesTreeTemplate.onCreated(function () {
-	if (typeof cuentaSubscript !== 'undefined') {
-    		cuentaSubscript.stop();
-    };
-	cuentaSubscript = Meteor.subscribe('cuentasPublish', this.data._id);
-
-	if (typeof contratoSubscript !== 'undefined') {
-    		contratoSubscript.stop();
-    };
-	contratoSubscript = Meteor.subscribe('contratosPublish', this.data._id);
 })

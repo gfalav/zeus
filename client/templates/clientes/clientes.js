@@ -1,48 +1,31 @@
-Template.clientesNewTemplate.events({
-	"submit form": function(e){
-		if (typeof clienteSubscript !== 'undefined') {
-    		clienteSubscript.stop();
-    	};
-		clienteSubscript = Meteor.subscribe("clientesPublish",null,null,e.target.documentoNro.value);
-		Router.go('clientesListTemplate');
-	}
-})
+AutoForm.hooks({
+	insertCustonClientesForm: {
 
-Template.clientesShowTemplate.events({
-	"click button.btn.btn-info": function(e){
-		if (typeof clienteSubscript !== 'undefined') {
-    		clienteSubscript.stop();
-    	};
-		clienteSubscript = Meteor.subscribe("clientesPublish",null,null,this.documentoNro);
-		Currents.insert({"entorno": "AtClientes", 
-						 "tipo":"idCliente", 
-						 "idCollection":this._id, 
-						 "action": "selectionShow",
-						 "fLog": new Date, 
-						 "usuario": Meteor.userId()})
-		Router.go('clientesListTemplate');
-	}
-})
+		onSuccess: function(formType, result) {
+			if (typeof clienteSubscript !== 'undefined') {
+	    		clienteSubscript.stop();
+	    	};
+			clienteSubscript = Meteor.subscribe("clientesPublish", result, null, null, null);
+			Router.go('/clientes/'+ result);
+		},
 
-Template.clientesUpdateTemplate.events({
-	"submit form": function(e){
-		Router.go('clientesListTemplate');
-	}
-})
+		onError: function(formType, error) {
+			alert.show(error);
+		}
+   
+	},
 
-Template.clientesListTemplate.events({
-	"click button.btn.btn-info": function(e){
-		Currents.insert({"entorno": "AtClientes", 
-						 "tipo":"idCliente", 
-						 "idCollection":this._id, 
-						 "action": "selectionList",
-						 "fLog": new Date, 
-						 "usuario": Meteor.userId()})
-	}
-})
+	updateCustonClientesForm: {
+		onSuccess: function(formType, result) {
+			if (typeof clienteSubscript !== 'undefined') {
+	    		clienteSubscript.stop();
+	    	};
+			clienteSubscript = Meteor.subscribe("clientesPublish", this.docId, null, null, null);
+			Router.go('/clientes/'+ this.docId);
+		},
 
-Template.clientesListTemplate.helpers({
-	clientesVar: function() {
-		return Clientes.find();
+		onError: function(formType, error) {
+			alert.show(error);
+		}
 	}
-})
+});
