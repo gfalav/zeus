@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.35em;
 }
 
 .pie {
@@ -12,7 +12,7 @@ body {
 }
 
 .principal {
-	min-height: 580px;
+	min-height: 708px;
 }
 
 .panel-izquierdo {
