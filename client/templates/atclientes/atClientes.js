@@ -13,8 +13,8 @@ Template.atClientesListTemplate.helpers({
 	}
 })
 
-Template.atClientesTreeTemplate.helpers({
-	apellido: function() {
+Template.atClientesTreeview.helpers({
+	apenom: function() {
 		if (typeof this.apellido !== 'undefined') {
 			return this.apellido + " " + this.apellido2 + ", " + this.nombres;
 		} else {
