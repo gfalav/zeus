@@ -1,0 +1,42 @@
+{ 
+    "_id" : "rAKHKZ9kjxxdxYaq7", 
+    "nombreSum" : "1000000", 
+    "edesalId" : "AdynSkwWXBfQ6HseA", 
+    "tensionSum" : "220V", 
+    "fasesSum" : "Monofásico", 
+    "tConexionSum" : "Monofásica", 
+    "tMedicionSum" : "Directa", 
+    "dirSumId" : "Los Zorzales", 
+    "fAlta" : ISODate("2016-07-19T20:44:00.633+0000"), 
+    "fUM" : ISODate("2016-07-19T20:44:00.633+0000"), 
+    "fBaja" : ISODate("2016-07-19T20:44:00.633+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "FkeXnEsMdqKNRmb4X", 
+    "nombreSum" : "1000001", 
+    "edesalId" : "aaSaTgkCnPRnjJcAe", 
+    "tensionSum" : "220V", 
+    "fasesSum" : "Monofásico", 
+    "tConexionSum" : "Monofásica", 
+    "tMedicionSum" : "Directa", 
+    "dirSumId" : "Los Zorzales", 
+    "fAlta" : ISODate("2016-07-19T20:44:16.554+0000"), 
+    "fUM" : ISODate("2016-07-19T20:44:16.554+0000"), 
+    "fBaja" : ISODate("2016-07-19T20:44:16.554+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "viqRBpfPwxEpZf2iP", 
+    "nombreSum" : "1000002", 
+    "edesalId" : "oX6T3n8fKAvFvDncj", 
+    "tensionSum" : "220V", 
+    "fasesSum" : "Monofásico", 
+    "tConexionSum" : "Monofásica", 
+    "tMedicionSum" : "Directa", 
+    "dirSumId" : "Los Zorzales", 
+    "fAlta" : ISODate("2016-07-19T20:44:29.662+0000"), 
+    "fUM" : ISODate("2016-07-19T20:44:29.662+0000"), 
+    "fBaja" : ISODate("2016-07-19T20:44:29.662+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

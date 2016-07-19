@@ -7,6 +7,8 @@
 		<a href="{{ pathFor 'cuentasShowTemplate'}}" class="list-group-item">Cuenta: {{>cuentaNombre}}</a>
 		{{#each this.contratos}}
 			<a href="{{ pathFor 'contratosShowTemplate'}}" class="list-group-item">Contrato: {{>contratoNombre}}</a>
+			<a href="{{ pathFor 'edesalsShowTemplate'}}" class="list-group-item">Edesal: {{>edesalNombre this.edesal}}</a>
+			<a href="{{ pathFor 'suministrosShowTemplate'}}" class="list-group-item">Edesal: {{>suministroNombre this.edesal.suministro}}</a>
 		{{/each}}
 	{{/each}}
 			 

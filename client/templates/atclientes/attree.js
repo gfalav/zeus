@@ -15,6 +15,17 @@ Template.atClientesTreeview.helpers({
 			contratoSubscribe = Meteor.subscribe('contratosPublish', cuenta._id);
 			contratos = Contratos.find({cuentaId: cuenta._id});
 			cuenta.contratos = contratos.fetch();
+
+			for (var contrato of cuenta.contratos) {
+				edesalSubscribe = Meteor.subscribe('edesalsPublish', contrato._id);
+				edesal = Edesals.findOne({contratoId: contrato._id});
+				contrato.edesal = edesal;
+
+				suministroSubscribe = Meteor.subscribe('suministrosPublish', edesal._id);
+				contrato.edesal.suministro = Suministros.findOne({edesalId: edesal._id});
+
+			}
+
 		}
 
 		return result;

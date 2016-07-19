@@ -1,0 +1,102 @@
+{ 
+    "_id" : "AdynSkwWXBfQ6HseA", 
+    "contratoId" : "3c4AMG7q9veHy2XAj", 
+    "tarifa" : "1-R", 
+    "perFactura" : "Mensual", 
+    "tipoIVA" : "Consumidor Final", 
+    "tipoIIBB" : "Cons Final", 
+    "tipoPercepIIBB" : "Cons Final", 
+    "potencias" : [
+        {
+            "fPot" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "potencia" : NumberInt(2), 
+            "tPot" : "Pot Contratada"
+        }
+    ], 
+    "consumoFijo" : [
+        {
+            "tconsumo" : "Activa", 
+            "consumo" : NumberInt(0)
+        }
+    ], 
+    "cosFi" : [
+        {
+            "nroRecargo" : NumberInt(0), 
+            "fechaRecargo" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "recargo" : NumberInt(0), 
+            "estRecargo" : "Pendiente"
+        }
+    ], 
+    "fAlta" : ISODate("2016-07-19T14:22:53.856+0000"), 
+    "fUM" : ISODate("2016-07-19T14:22:53.856+0000"), 
+    "fBaja" : ISODate("2016-07-19T14:22:53.857+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "aaSaTgkCnPRnjJcAe", 
+    "contratoId" : "DbMyJnRRcEYzawXcF", 
+    "tarifa" : "1-R", 
+    "perFactura" : "Mensual", 
+    "tipoIVA" : "Consumidor Final", 
+    "tipoIIBB" : "Cons Final", 
+    "tipoPercepIIBB" : "Cons Final", 
+    "potencias" : [
+        {
+            "fPot" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "potencia" : NumberInt(2), 
+            "tPot" : "Pot Contratada"
+        }
+    ], 
+    "consumoFijo" : [
+        {
+            "tconsumo" : "Activa", 
+            "consumo" : NumberInt(0)
+        }
+    ], 
+    "cosFi" : [
+        {
+            "nroRecargo" : NumberInt(0), 
+            "fechaRecargo" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "recargo" : NumberInt(0), 
+            "estRecargo" : "Pendiente"
+        }
+    ], 
+    "fAlta" : ISODate("2016-07-19T14:23:27.773+0000"), 
+    "fUM" : ISODate("2016-07-19T14:23:27.773+0000"), 
+    "fBaja" : ISODate("2016-07-19T14:23:27.773+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "oX6T3n8fKAvFvDncj", 
+    "contratoId" : "8uxXGqd5MHbD5j7ri", 
+    "tarifa" : "1-R", 
+    "perFactura" : "Mensual", 
+    "tipoIVA" : "Consumidor Final", 
+    "tipoIIBB" : "Cons Final", 
+    "tipoPercepIIBB" : "Cons Final", 
+    "potencias" : [
+        {
+            "fPot" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "potencia" : NumberInt(0), 
+            "tPot" : "Pot Contratada"
+        }
+    ], 
+    "consumoFijo" : [
+        {
+            "tconsumo" : "Activa", 
+            "consumo" : NumberInt(0)
+        }
+    ], 
+    "cosFi" : [
+        {
+            "nroRecargo" : NumberInt(0), 
+            "fechaRecargo" : ISODate("2016-07-19T00:00:00.000+0000"), 
+            "recargo" : NumberInt(0), 
+            "estRecargo" : "Pendiente"
+        }
+    ], 
+    "fAlta" : ISODate("2016-07-19T14:25:29.086+0000"), 
+    "fUM" : ISODate("2016-07-19T14:25:29.086+0000"), 
+    "fBaja" : ISODate("2016-07-19T14:25:29.086+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

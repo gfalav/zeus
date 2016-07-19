@@ -14,6 +14,10 @@
                 {
                     "when" : ISODate("2016-07-19T00:23:24.854+0000"), 
                     "hashedToken" : "bon/U3JWbCiUtSmTEWqPUE47YB6yzpQPBbRA7x0QERg="
+                }, 
+                {
+                    "when" : ISODate("2016-07-19T12:03:44.766+0000"), 
+                    "hashedToken" : "UsLDusiW6ob4rHnd6aSQaKXQEIUMeuVD7TJJSooCf8A="
                 }
             ]
         }
