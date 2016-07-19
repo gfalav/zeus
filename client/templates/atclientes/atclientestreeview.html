@@ -1,12 +1,12 @@
 <template name="atClientesTreeview">
 	<p>Datos del cliente</p>
 
-	{{treeVar.cliente.apellido}}
+	<a href="{{pathFor 'clientesShowTemplate'}}" class="list-group-item">{{treeVar.cliente.apellido}}</a>
 
 	{{#each treeVar.cliente.cuentas}}
-		Cuenta: {{>cuentaNombre}}
+		<a href="{{ pathFor 'cuentasShowTemplate'}}" class="list-group-item">Cuenta: {{>cuentaNombre}}</a>
 		{{#each this.contratos}}
-			Contrato: {{>contratoNombre}}
+			<a href="{{ pathFor 'contratosShowTemplate'}}" class="list-group-item">Contrato: {{>contratoNombre}}</a>
 		{{/each}}
 	{{/each}}
 			 

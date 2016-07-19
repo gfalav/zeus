@@ -1,6 +1,6 @@
 { 
     "_id" : "64XBhTTi933eivnBm", 
-    "nombre" : "Cuenta Principal", 
+    "nombre" : "Cuenta 1", 
     "indCortable" : true, 
     "tipoVencimiento" : "General", 
     "tipoEmision" : "General", 
@@ -14,7 +14,7 @@
 }
 { 
     "_id" : "yupF3FGjmRF9gBLnE", 
-    "nombre" : "Cuenta Principal", 
+    "nombre" : "Cuenta 2", 
     "indCortable" : false, 
     "tipoVencimiento" : "General", 
     "tipoEmision" : "General", 
@@ -28,7 +28,7 @@
 }
 { 
     "_id" : "wJHGxqg7a8vaRaYB4", 
-    "nombre" : "Cuenta Principal", 
+    "nombre" : "Cuenta 3", 
     "indCortable" : false, 
     "tipoVencimiento" : "General", 
     "tipoEmision" : "General", 
