@@ -1,0 +1,42 @@
+{ 
+    "_id" : "64XBhTTi933eivnBm", 
+    "nombre" : "Cuenta Principal", 
+    "indCortable" : true, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Los Zorzales 620 JK", 
+    "fAlta" : ISODate("2016-07-18T11:26:15.838+0000"), 
+    "fUM" : ISODate("2016-07-18T11:26:15.838+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:26:15.838+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj", 
+    "clienteId" : "5uNNHAb6AaFvvbETS"
+}
+{ 
+    "_id" : "yupF3FGjmRF9gBLnE", 
+    "nombre" : "Cuenta Principal", 
+    "indCortable" : false, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Los Zorzales 620 JK", 
+    "fAlta" : ISODate("2016-07-18T11:26:24.721+0000"), 
+    "fUM" : ISODate("2016-07-18T11:26:24.721+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:26:24.721+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj", 
+    "clienteId" : "5uNNHAb6AaFvvbETS"
+}
+{ 
+    "_id" : "wJHGxqg7a8vaRaYB4", 
+    "nombre" : "Cuenta Principal", 
+    "indCortable" : false, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Los Zorzales 620 JK", 
+    "fAlta" : ISODate("2016-07-18T11:26:33.407+0000"), 
+    "fUM" : ISODate("2016-07-18T11:26:33.407+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:26:33.407+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj", 
+    "clienteId" : "5uNNHAb6AaFvvbETS"
+}

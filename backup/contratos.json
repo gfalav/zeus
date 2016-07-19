@@ -1,0 +1,33 @@
+{ 
+    "_id" : "3c4AMG7q9veHy2XAj", 
+    "nombre" : "Contrato 1", 
+    "cuentaId" : "64XBhTTi933eivnBm", 
+    "tipoContrato" : "Edesal", 
+    "estadoContrato" : "Pendiente de Conectar", 
+    "fAlta" : ISODate("2016-07-18T11:33:13.492+0000"), 
+    "fUM" : ISODate("2016-07-18T11:33:13.492+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:33:13.492+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "DbMyJnRRcEYzawXcF", 
+    "nombre" : "Contrato 2", 
+    "cuentaId" : "64XBhTTi933eivnBm", 
+    "tipoContrato" : "Edesal", 
+    "estadoContrato" : "Pendiente de Conectar", 
+    "fAlta" : ISODate("2016-07-18T11:33:38.373+0000"), 
+    "fUM" : ISODate("2016-07-18T11:33:38.373+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:33:38.373+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "8uxXGqd5MHbD5j7ri", 
+    "nombre" : "Contrato 3", 
+    "cuentaId" : "yupF3FGjmRF9gBLnE", 
+    "tipoContrato" : "Edesal", 
+    "estadoContrato" : "Pendiente de Conectar", 
+    "fAlta" : ISODate("2016-07-18T11:35:15.102+0000"), 
+    "fUM" : ISODate("2016-07-18T11:35:15.102+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:35:15.102+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

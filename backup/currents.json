@@ -1,0 +1,64 @@
+{ 
+    "_id" : "K329mjSNGBTummRSK", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "5uNNHAb6AaFvvbETS", 
+    "fLog" : ISODate("2016-07-18T11:24:30.950+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "mB6HQThmbPkfu7vqB", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "cEzoNEYfrXLsoibkP", 
+    "fLog" : ISODate("2016-07-18T11:25:13.872+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "GxHFbTsnPG9Kq9E4t", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "64XBhTTi933eivnBm", 
+    "fLog" : ISODate("2016-07-18T11:26:16.135+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "MbavjauNdHvurASs7", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "yupF3FGjmRF9gBLnE", 
+    "fLog" : ISODate("2016-07-18T11:26:24.725+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "fjN7kNs4vtwsjtYX7", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "wJHGxqg7a8vaRaYB4", 
+    "fLog" : ISODate("2016-07-18T11:26:33.412+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "dteRFfzQuGsszyMPW", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idContrato", 
+    "idCollection" : "3c4AMG7q9veHy2XAj", 
+    "fLog" : ISODate("2016-07-18T11:33:13.524+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "GxxwKRvf5REQPfNpW", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idContrato", 
+    "idCollection" : "DbMyJnRRcEYzawXcF", 
+    "fLog" : ISODate("2016-07-18T11:33:38.376+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "RgZWdgBNL9RcNr5eR", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idContrato", 
+    "idCollection" : "8uxXGqd5MHbD5j7ri", 
+    "fLog" : ISODate("2016-07-18T11:35:15.117+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

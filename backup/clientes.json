@@ -1,0 +1,56 @@
+{ 
+    "_id" : "5uNNHAb6AaFvvbETS", 
+    "apellido" : "Falavigna", 
+    "apellido2" : "Ceballos", 
+    "nombres" : "Gustavo David", 
+    "documentoNro" : "18504604", 
+    "documentoTipo" : "DNI", 
+    "documentoEmisor" : "Argentina", 
+    "dirClienteId" : "Los Zorzales", 
+    "ciiu" : NumberInt(123456), 
+    "tratamientoEspecial" : true, 
+    "tClienteId" : "Residencial", 
+    "contacto" : "Gustavo", 
+    "apoderado" : "Gabriela Rizzi", 
+    "telefono" : [
+        2664512644.0
+    ], 
+    "email" : [
+        "gfalav@hotmail.com"
+    ], 
+    "web" : [
+        "www.gfalav.com"
+    ], 
+    "fAlta" : ISODate("2016-07-18T11:24:30.921+0000"), 
+    "fUM" : ISODate("2016-07-18T11:24:30.921+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:24:30.921+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "cEzoNEYfrXLsoibkP", 
+    "apellido" : "Avendaño", 
+    "apellido2" : "Segarra", 
+    "nombres" : "Gustavo Daniel", 
+    "documentoNro" : "13107337", 
+    "documentoTipo" : "DNI", 
+    "documentoEmisor" : "Argentina", 
+    "dirClienteId" : "Gomez Isleño", 
+    "ciiu" : NumberInt(654321), 
+    "tratamientoEspecial" : false, 
+    "tClienteId" : "Residencial", 
+    "contacto" : "Daniel", 
+    "apoderado" : "Patricia Quintas", 
+    "telefono" : [
+        2664512641.0
+    ], 
+    "email" : [
+        "gustavo.d.avendaño@gmail.com"
+    ], 
+    "web" : [
+        "www.gavendano.com.ar"
+    ], 
+    "fAlta" : ISODate("2016-07-18T11:25:13.859+0000"), 
+    "fUM" : ISODate("2016-07-18T11:25:13.859+0000"), 
+    "fBaja" : ISODate("2016-07-18T11:25:13.859+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

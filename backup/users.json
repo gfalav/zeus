@@ -1,0 +1,26 @@
+{ 
+    "_id" : "pYMPmvPew3eYo7NNj", 
+    "createdAt" : ISODate("2016-07-18T11:23:01.887+0000"), 
+    "services" : {
+        "password" : {
+            "bcrypt" : "$2a$10$j9BYufhF2.07mAbdXZscv.DnP2aPN0k26tFibvkJeQztifxAyN5QC"
+        }, 
+        "resume" : {
+            "loginTokens" : [
+                {
+                    "when" : ISODate("2016-07-18T11:23:01.918+0000"), 
+                    "hashedToken" : "PQ6l3z5/zSdvqmN2+NEYyMyzww/1nIMwnmcPU8TCGZU="
+                }
+            ]
+        }
+    }, 
+    "emails" : [
+        {
+            "address" : "gfalav@yahoo.com", 
+            "verified" : false
+        }
+    ], 
+    "profile" : {
+
+    }
+}

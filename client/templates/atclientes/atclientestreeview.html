@@ -1,50 +1,13 @@
 <template name="atClientesTreeview">
-<p>Datos del cliente</p>
-             
-<div class="css-treeview">
-    <ul>
-        <li><input type="checkbox" id="item-0" checked="checked" /><label for="item-0">Cliente: {{apenom}}</label>
-            <ul>
-                <li><input type="checkbox" id="item-00" checked="checked"/><label for="item-00">Cuentas</label>
-                    <ul>
-                        <li><input type="checkbox" id="item-000" checked="checked"/><label for="item-000">Contratos</label>
-                            <ul>
-                                <li><input type="checkbox" id="item-0000" checked="checked"/><label for="item-0000">Edesal</label>
-                                    <ul>
-                                        <li><input type="checkbox" id="item-00000" checked="checked"/><label for="item-00000">Suministros</label>
-                                            <ul>
-                                                <li><input type="checkbox" id="item-000000" checked="checked"/><label for="item-000000">Medidores</label>
-                                                    <ul>
-                                                        <li><a href="./">Medidor 1</a></li>
-                                                        <li><a href="./">Medidor 2</a></li>
-                                                        <li><a href="./">Medidor 3</a></li>
-                                                        <li><a href="./">Medidor 4</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><input type="checkbox" id="item-000001" checked="checked"/><label for="item-000001">Ordenes de Trabajo</label>
-                                                    <ul>
-                                                        <li><a href="./">Medidor 1</a></li>
-                                                        <li><a href="./">Medidor 2</a></li>
-                                                        <li><a href="./">Medidor 3</a></li>
-                                                        <li><a href="./">Medidor 4</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><b><a href="./">Facturas</a></b></li>
-                                        <li><b><a href="./">Acuerdos</a></b></li>
-                                        <li><b><a href="./">Cargos Adicionales</a></b></li>
-                                        <li><b><a href="./">Reclamos</a></b></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><b><a href="./">Historial de Contactos</a></b></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-             
+	<p>Datos del cliente</p>
+
+	{{treeVar.cliente.apellido}}
+
+	{{#each treeVar.cliente.cuentas}}
+		Cuenta: {{>cuentaNombre}}
+		{{#each this.contratos}}
+			Contrato: {{>contratoNombre}}
+		{{/each}}
+	{{/each}}
+			 
 </template>
