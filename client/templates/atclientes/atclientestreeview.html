@@ -1,15 +1,20 @@
 <template name="atClientesTreeview">
-	<p>Datos del cliente</p>
 
-	<a href="{{pathFor 'clientesShowTemplate'}}" class="list-group-item">{{treeVar.cliente.apellido}}</a>
+	<div class="col-xs-3 col-sm-3">
+		<p>Datos del cliente</p>
 
-	{{#each treeVar.cliente.cuentas}}
-		<a href="{{ pathFor 'cuentasShowTemplate'}}" class="list-group-item">Cuenta: {{>cuentaNombre}}</a>
-		{{#each this.contratos}}
-			<a href="{{ pathFor 'contratosShowTemplate'}}" class="list-group-item">Contrato: {{>contratoNombre}}</a>
-			<a href="{{ pathFor 'edesalsShowTemplate'}}" class="list-group-item">Edesal: {{>edesalNombre this.edesal}}</a>
-			<a href="{{ pathFor 'suministrosShowTemplate'}}" class="list-group-item">Edesal: {{>suministroNombre this.edesal.suministro}}</a>
-		{{/each}}
-	{{/each}}
-			 
+		<div class="list-group">
+		  <a href="{{pathFor 'clientesShowTemplate'}}" class="list-group-item active">{{>clienteNombre}}</a>
+		  <a href="{{cuentasPath}}" class="list-group-item"><span class="badge">{{cuentasCount}}</span>Cuentas</a>
+		  <a href="#" class="list-group-item">Contratos</a>
+		  <a href="#" class="list-group-item">Suministros</a>
+		  <a href="#" class="list-group-item">Medidores</a>
+		  <a href="#" class="list-group-item">Ordenes de Campo</a>
+		  <a href="#" class="list-group-item">Facturas</a>
+		  <a href="#" class="list-group-item">Otros Cargos</a>
+		  <a href="#" class="list-group-item">Acuerdos</a>
+		  <a href="#" class="list-group-item">Reclamos</a>
+		  <a href="#" class="list-group-item">Contactos</a>
+		</div>
+	</div>
 </template>

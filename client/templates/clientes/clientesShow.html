@@ -1,5 +1,5 @@
 <template name="clientesShowTemplate">
-	<div class="col-xs-12 col-sm-12">
+	<div class="col-xs-9 col-sm-9">
 	  {{#autoForm collection="Clientes" id="showCustonClientesForm" doc=this type="readonly" }}
 
 	  	{{> clientesForm}}
@@ -7,4 +7,8 @@
 	  {{/autoForm}}
 	</div>
 	<a href="{{pathFor 'clientesUpdateTemplate'}}" class="btn btn-warning">E</a>
+</template>
+
+<template name="clienteNombre">
+	{{apellido}} {{apellido2}}, {{nombres}}
 </template>

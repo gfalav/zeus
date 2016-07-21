@@ -12,6 +12,6 @@ Template.cuentasUpdateTemplate.events({
 
 Template.cuentasListTemplate.helpers({
 	cuentasVar: function() {
-		return Cuentas.find();
+		return Cuentas.find({clienteId: this._id});
 	}
 })

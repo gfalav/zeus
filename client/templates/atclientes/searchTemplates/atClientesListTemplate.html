@@ -1,8 +1,10 @@
 <template name="atClientesListTemplate">
-	<div class="list-group">
-		{{#each resultsVar}}
-			<a href="{{ pathFor 'atClientesResumen' }}" class="list-group-item">{{> resultDetails }}</a>
-		{{/each}}
+	<div class="col-xs-9 col-sm-9">
+		<div class="list-group">
+			{{#each resultsVar}}
+				<a href="{{ pathFor 'atClientesResumen' }}" class="list-group-item">{{> resultDetails }}</a>
+			{{/each}}
+		</div>
 	</div>
 </template>
 
