@@ -1,5 +1,5 @@
 <template name="cuentasShort">
-	{{nombre}} - Cortable: {{ indCortable }} - T Vcto: {{tipoVencimiento}} - T Emisión: {{tipoEmision}} - F Pago: {{formaPago}} - Dom Postal: {{dirPostalId}}
+	<b>{{nombre}} - Cortable:</b> {{ indCortable }}<b> - T Vcto: </b>{{tipoVencimiento}}<b> - T Emisión: </b>{{tipoEmision}}<b> - F Pago: </b>{{formaPago}}<b> - Dom Postal: </b>{{dirPostalId}}
 </template>
 
 <template name="cuentaNombre">
@@ -7,32 +7,12 @@
 </template>
 
 <template name="cuentasListTemplate">
-	<div class="container-fluid">
-		<div class="col-xs-9 col-sm-9">
-			<table class="table">
-				<thead>
-					<tr>
-						<th class="col-xs-12 col-sm-12">Cuenta</th>
-						<th class="col-xs-12 col-sm-1"></th>
-						<th class="col-xs-12 col-sm-1"></th>
-						<th class="col-xs-12 col-sm-1"></th>
-					</tr>
-				</thead>
-				<tbody>
-					{{#each cuentasVar}}
-						<tr>
-							<td>{{>cuentasShort}}</td>
-							<td><a href="{{pathFor 'cuentasShowTemplate'}}" class="btn btn-info">D</a></td>
-							<td><a href="{{pathFor 'cuentasUpdateTemplate'}}" class="btn btn-warning">E</a></td>
-						</tr>
-					{{/each}}
-				</tbody>
-				
-						
-			</table>
-
-
+	<div class="col-xs-9 col-sm-9">
+		<div class="list-group">
+			{{#each cuentasVar}}
+				<a href="{{ pathFor 'cuentasShowTemplate' }}" class="list-group-item">{{> cuentasShort }}</a>
+			{{/each}}
 		</div>
-		<a href="{{pathFor 'cuentasNewTemplate'}}" class="btn btn-success">N</a>
 	</div>
+	<a href="{{pathFor 'cuentasNewTemplate'}}" class="btn btn-info">Nueva cuenta</a>
 </template>
