@@ -1,13 +1,27 @@
 Template.atClientesTreeview.helpers({
+	treeVar: function() {
+		
+		clienteSubscript = Meteor.subscribe("clientesPublish", this._id, null, null, null);
+		cuentaSubscript = Meteor.subscribe("cuentasPublish", this._id);
+
+		cuentas = Cuentas.find({'clienteId': this._id});
+
+		cuentas.forEach( function(cuenta) {
+			contratoSubscript = Meteor.subscribe("contratosPublish", cuenta._id);
+		});
+
+
+		return "ok";
+	},
 
 	cuentasCount: function() {
-		//define datos del cliente
-		//define datos de las cuentas
-		cuentaSubscript = Meteor.subscribe('cuentasPublish', this._id);
-
-		return Cuentas.find({'clienteId': this._id}).count();
-
+		return Cuentas.find().count();
 	},
+
+	contratosCount: function() {
+		return Contratos.find().count();
+	},
+
 
 	cuentasPath: function() {
 		return '/cuentas/' + this._id;

@@ -1,5 +1,5 @@
 <template name="contratosUpdateTemplate">
-	<div class="col-xs-12 col-sm-12">
+	<div class="col-xs-9 col-sm-9">
 	  {{#autoForm collection="Contratos" id="updateCustonContratosForm" doc=this type="method" meteormethod="contratosUpdate" }}
 
 	  	{{> contratosForm}}
@@ -9,5 +9,4 @@
 	  {{/autoForm}}
 	</div>
 	<td><a href="{{pathFor 'contratosShowTemplate'}}" class="btn btn-info">D</a></td>
-	<td><a href="{{pathFor 'contratosListTemplate'}}" class="btn btn-default">Back</a></td>
 </template>

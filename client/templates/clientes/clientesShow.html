@@ -10,5 +10,9 @@
 </template>
 
 <template name="clienteNombre">
-	{{apellido}} {{apellido2}}, {{nombres}}
+	{{#if apellido }}
+		{{apellido}} {{apellido2}}, {{nombres}}
+	{{else}}
+		Información del Cliente
+	{{/if}}
 </template>

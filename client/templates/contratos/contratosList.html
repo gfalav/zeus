@@ -7,32 +7,13 @@
 </template>
 
 <template name="contratosListTemplate">
-	<div class="container-fluid">
-		<div class="col-xs-12 col-sm-12">
-			<table class="table">
-				<thead>
-					<tr>
-						<th class="col-xs-12 col-sm-12">Contrato</th>
-						<th class="col-xs-12 col-sm-1"></th>
-						<th class="col-xs-12 col-sm-1"></th>
-						<th class="col-xs-12 col-sm-1"></th>
-					</tr>
-				</thead>
-				<tbody>
-					{{#each contratosVar}}
-						<tr>
-							<td>{{>contratosShort}}</td>
-							<td><a href="{{pathFor 'contratosShowTemplate'}}" class="btn btn-info">D</a></td>
-							<td><a href="{{pathFor 'contratosUpdateTemplate'}}" class="btn btn-warning">E</a></td>
-						</tr>
-					{{/each}}
-				</tbody>
-				
-						
-			</table>
-
-
+	<div class="col-xs-9 col-sm-9">
+		<h4><b>Contratos del Cliente</b></h4>
+		<div class="list-group">
+			{{#each contratosVar}}
+				<a href="{{ pathFor 'contratosShowTemplate' }}" class="list-group-item">{{> contratosShort }}</a>
+			{{/each}}
 		</div>
-		<a href="{{pathFor 'contratosNewTemplate'}}" class="btn btn-success">N</a>
 	</div>
+	<a href="{{pathFor 'contratosNewTemplate'}}" class="btn btn-info">Nuevo Contrato</a>
 </template>
