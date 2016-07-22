@@ -1,13 +1,12 @@
 <template name="cuentasUpdateTemplate">
-	<div class="col-xs-12 col-sm-12">
+	<div class="col-xs-9 col-sm-9">
 	  {{#autoForm collection="Cuentas" id="updateCustonCuentasForm" doc=this type="method" meteormethod="cuentasUpdate" }}
 
 	  	{{> cuentasForm}}
 
-	    <button type="submit" class="btn btn-danger">Enviar</button>
+	    <button type="submit" class="btn btn-danger">Enviar</button><a href="{{pathFor 'cuentasShowTemplate'}}" class="btn btn-info">D</a>
 		
 	  {{/autoForm}}
 	</div>
-	<td><a href="{{pathFor 'cuentasShowTemplate'}}" class="btn btn-info">D</a></td>
-	<td><a href="{{pathFor 'cuentasListTemplate'}}" class="btn btn-default">Back</a></td>
+	
 </template>

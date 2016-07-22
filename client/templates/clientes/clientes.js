@@ -10,7 +10,7 @@ AutoForm.hooks({
 		},
 
 		onError: function(formType, error) {
-			alert.show(error);
+			alert(error);
 		}
    
 	},
@@ -25,7 +25,7 @@ AutoForm.hooks({
 		},
 
 		onError: function(formType, error) {
-			alert.show(error);
+			alert(error);
 		}
 	}
 });

@@ -1,11 +1,11 @@
 <template name="atClientesTreeview">
 
 	<div class="col-xs-3 col-sm-3">
-		<p>Datos del cliente</p>
+		<h4><b>Datos del cliente</b></h4>
 
 		<div class="list-group">
 		  <a href="{{pathFor 'clientesShowTemplate'}}" class="list-group-item active">{{>clienteNombre}}</a>
-		  <a href="{{cuentasPath}}" class="list-group-item"><span class="badge">{{cuentasCount}}</span>Cuentas</a>
+		  <a href="{{pathFor 'cuentasListTemplate'}}" class="list-group-item"><span class="badge">{{cuentasCount}}</span>Cuentas</a>
 		  <a href="#" class="list-group-item">Contratos</a>
 		  <a href="#" class="list-group-item">Suministros</a>
 		  <a href="#" class="list-group-item">Medidores</a>

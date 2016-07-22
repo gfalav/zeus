@@ -5,7 +5,7 @@ Template.atClientesTreeview.helpers({
 		//define datos de las cuentas
 		cuentaSubscript = Meteor.subscribe('cuentasPublish', this._id);
 
-		return Cuentas.find().count();
+		return Cuentas.find({'clienteId': this._id}).count();
 
 	},
 

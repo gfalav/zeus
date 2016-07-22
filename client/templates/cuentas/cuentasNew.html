@@ -1,5 +1,5 @@
 <template name="cuentasNewTemplate">
-	<div class="col-xs-12 col-sm-12">
+	<div class="col-xs-9 col-sm-9">
 	  	{{#autoForm collection="Cuentas" id="insertCustonCuentasForm" type="method" meteormethod="cuentasNew" }}
 
 	  		{{> cuentasForm}}
@@ -7,6 +7,5 @@
 	    	<button type="submit" class="btn btn-danger">Enviar</button>
 	  	{{/autoForm}}
 
-		<td><a href="{{pathFor 'cuentasListTemplate'}}" class="btn btn-default">Back</a></td>
 	</div>
 </template>

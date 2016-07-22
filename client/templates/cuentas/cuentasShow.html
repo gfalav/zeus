@@ -1,11 +1,10 @@
 <template name="cuentasShowTemplate">
-	<div class="col-xs-12 col-sm-12">
+	<div class="col-xs-9 col-sm-9">
 	  {{#autoForm collection="Cuentas" id="showCustonCuentasForm" doc=this type="readonly" }}
 
 	  	{{> cuentasForm}}
 
 	  {{/autoForm}}
 	</div>
-	<td><a href="{{pathFor 'cuentasUpdateTemplate'}}" class="btn btn-warning">E</a></td>
-	<td><a href="{{pathFor 'cuentasListTemplate'}}" class="btn btn-default">Back</a></td>
+	<td><a href="{{pathFor 'cuentasUpdateTemplate'}}" class="btn btn-danger">E</a></td>
 </template>
