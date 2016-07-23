@@ -7,7 +7,7 @@
     "formaPago" : "Bocas de Cobro", 
     "dirPostalId" : "Los Zorzales 620 JK", 
     "fAlta" : ISODate("2016-07-18T11:26:15.838+0000"), 
-    "fUM" : ISODate("2016-07-18T11:26:15.838+0000"), 
+    "fUM" : ISODate("2016-07-22T14:09:58.701+0000"), 
     "fBaja" : ISODate("2016-07-18T11:26:15.838+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj", 
     "clienteId" : "5uNNHAb6AaFvvbETS"
@@ -39,4 +39,32 @@
     "fBaja" : ISODate("2016-07-18T11:26:33.407+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj", 
     "clienteId" : "5uNNHAb6AaFvvbETS"
+}
+{ 
+    "_id" : "7TzLMEKWBRgBzJRAD", 
+    "clienteId" : "5uNNHAb6AaFvvbETS", 
+    "nombre" : "Cuenta 4", 
+    "indCortable" : false, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Los Zorzales 620 JK", 
+    "fAlta" : ISODate("2016-07-22T14:04:55.602+0000"), 
+    "fUM" : ISODate("2016-07-22T14:08:28.934+0000"), 
+    "fBaja" : ISODate("2016-07-22T14:04:55.602+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "THXEaEJw6Ek9Wfiey", 
+    "clienteId" : "cEzoNEYfrXLsoibkP", 
+    "nombre" : "Cuenta Principal", 
+    "indCortable" : false, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Gomez Isleño", 
+    "fAlta" : ISODate("2016-07-22T20:01:32.364+0000"), 
+    "fUM" : ISODate("2016-07-22T20:01:32.364+0000"), 
+    "fBaja" : ISODate("2016-07-22T20:01:32.364+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
 }

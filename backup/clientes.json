@@ -22,7 +22,7 @@
         "www.gfalav.com"
     ], 
     "fAlta" : ISODate("2016-07-18T11:24:30.921+0000"), 
-    "fUM" : ISODate("2016-07-19T18:57:15.921+0000"), 
+    "fUM" : ISODate("2016-07-22T14:04:37.068+0000"), 
     "fBaja" : ISODate("2016-07-18T11:24:30.921+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj"
 }
@@ -53,4 +53,32 @@
     "fUM" : ISODate("2016-07-18T11:25:13.859+0000"), 
     "fBaja" : ISODate("2016-07-18T11:25:13.859+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "FHLWWP36BPNwnNmtn", 
+    "apellido" : "Falavigna", 
+    "apellido2" : "Ceballos", 
+    "nombres" : "Santiago Rubén", 
+    "documentoNro" : "25000000", 
+    "documentoTipo" : "DNI", 
+    "documentoEmisor" : "Argentina", 
+    "dirClienteId" : "Bourdichón 653", 
+    "ciiu" : NumberInt(987654), 
+    "tratamientoEspecial" : true, 
+    "tClienteId" : "Residencial", 
+    "contacto" : "Gustavo", 
+    "apoderado" : "Laura Busso", 
+    "fAlta" : ISODate("2016-07-22T19:30:57.627+0000"), 
+    "fUM" : ISODate("2016-07-22T19:30:57.627+0000"), 
+    "fBaja" : ISODate("2016-07-22T19:30:57.627+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj", 
+    "telefono" : [
+
+    ], 
+    "email" : [
+
+    ], 
+    "web" : [
+
+    ]
 }

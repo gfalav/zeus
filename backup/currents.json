@@ -150,3 +150,227 @@
     "fLog" : ISODate("2016-07-19T20:44:29.678+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj"
 }
+{ 
+    "_id" : "53uK3ZQDpJimzgw97", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "5uNNHAb6AaFvvbETS", 
+    "fLog" : ISODate("2016-07-22T12:15:18.388+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "f7upQHMX9jwamE9bo", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "64XBhTTi933eivnBm", 
+    "fLog" : ISODate("2016-07-22T12:33:46.777+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "Wwtpy8TzBvaKZmqSj", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "64XBhTTi933eivnBm", 
+    "fLog" : ISODate("2016-07-22T12:34:52.631+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "3h57RyHyDFGdbQLH3", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "5uNNHAb6AaFvvbETS", 
+    "fLog" : ISODate("2016-07-22T12:36:07.916+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "zTgtCCcW68pudXnBp", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "335p33f9Xav9k2rrT", 
+    "fLog" : ISODate("2016-07-22T12:58:35.179+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "LAge9ni2CDALwSPaN", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "5uNNHAb6AaFvvbETS", 
+    "fLog" : ISODate("2016-07-22T12:58:58.643+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "dzji5xTS8Kfj9whQz", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "HLwxFfQcjeEL9RpgB", 
+    "fLog" : ISODate("2016-07-22T13:02:23.536+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "y2hxCxiRhE2rHnecP", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "fL3qwLir7jPKuavTh", 
+    "fLog" : ISODate("2016-07-22T13:05:32.909+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "Wasu4usP5q8WBMnrL", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "nTSgkEb3z2huhm9TT", 
+    "fLog" : ISODate("2016-07-22T13:07:37.121+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "XZj9MPHc5wpk6i9ib", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "NkGcLKWzQqufkMFTK", 
+    "fLog" : ISODate("2016-07-22T13:15:19.544+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "qZfkebcSSxZHmrZcm", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "QbK9fRiPX8E9soxJp", 
+    "fLog" : ISODate("2016-07-22T13:18:22.812+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "6m4Y7b5cGoak4AEJb", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "usEkx3r5xHHGT4sYm", 
+    "fLog" : ISODate("2016-07-22T13:36:03.240+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "DxgCL85ETgh62Y8Ep", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "zgDTeRL9cRF8YtHMX", 
+    "fLog" : ISODate("2016-07-22T13:45:13.373+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "NX9ytcNcmjq7ym4tZ", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "pri4LxKKQamHT5tmd", 
+    "fLog" : ISODate("2016-07-22T13:46:46.551+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "cow6PRyby37HEWStL", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "MbQMrWttAA2b9qRNa", 
+    "fLog" : ISODate("2016-07-22T13:47:48.115+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "WPrREy2rX8ZPuTZEM", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "4e4fDwWuyD3bMitSG", 
+    "fLog" : ISODate("2016-07-22T13:50:58.328+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "noxm6nF56L72qrhhP", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "YeKfzsC8PkX4uxxuC", 
+    "fLog" : ISODate("2016-07-22T13:53:14.321+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "Lec7EpySmaCrjwZXJ", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "o2EGF8YFX2WCKq2i9", 
+    "fLog" : ISODate("2016-07-22T13:55:46.385+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "8cZsRBSLDRJeJ2hc6", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "o2EGF8YFX2WCKq2i9", 
+    "fLog" : ISODate("2016-07-22T13:56:27.107+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "5WoL8Ko7a674vgWgq", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "ii55Tyb77WCi5c5wz", 
+    "fLog" : ISODate("2016-07-22T13:57:59.358+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "tf5WkaorWgcEB5s4J", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "ii55Tyb77WCi5c5wz", 
+    "fLog" : ISODate("2016-07-22T14:03:34.225+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "PcsLyY8Qy96rzfFGe", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "5uNNHAb6AaFvvbETS", 
+    "fLog" : ISODate("2016-07-22T14:04:37.167+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "tAdC88ErXWDTb7JbD", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "7TzLMEKWBRgBzJRAD", 
+    "fLog" : ISODate("2016-07-22T14:04:55.607+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "Tu8myH6xFJQE7mfEE", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "7TzLMEKWBRgBzJRAD", 
+    "fLog" : ISODate("2016-07-22T14:06:45.567+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "QwCBezrYnZ6sWGfAX", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "7TzLMEKWBRgBzJRAD", 
+    "fLog" : ISODate("2016-07-22T14:08:28.942+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "9yGCmaYaSZWzP9z9H", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "64XBhTTi933eivnBm", 
+    "fLog" : ISODate("2016-07-22T14:09:58.704+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "NZNJXPKKLDier5AWu", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCliente", 
+    "idCollection" : "FHLWWP36BPNwnNmtn", 
+    "fLog" : ISODate("2016-07-22T19:30:57.727+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "8MA2BaApiwqwXYfbf", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "THXEaEJw6Ek9Wfiey", 
+    "fLog" : ISODate("2016-07-22T20:01:32.432+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
