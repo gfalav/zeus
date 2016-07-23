@@ -1,16 +1,20 @@
 Template.contratosListTemplate.helpers({
 	contratosVar: function() {
-		return Contratos.find({clienteId: this._id});
+		return Contratos.find();
 	}
 })
 
 Template.contratosForm.helpers({
 	cuentaIdForm: function() {
-		if (this.cuentaId) {
-			return this.cuentaId;
-		} else {
-			return this._id;
-		}
+		cuentas = Cuentas.find({'clienteId': this._id}).fetch();
+		optionsarr = [];
+		cuentas.forEach( function(cuenta) {
+			obj = {};
+			obj.label = cuenta.nombre;
+			obj.value = cuenta._id;
+			optionsarr.push(obj);
+		});
+		return optionsarr;
 	}
 })
 
