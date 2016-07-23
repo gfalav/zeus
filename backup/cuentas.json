@@ -59,12 +59,26 @@
     "clienteId" : "cEzoNEYfrXLsoibkP", 
     "nombre" : "Cuenta Principal", 
     "indCortable" : false, 
-    "tipoVencimiento" : "General", 
+    "tipoVencimiento" : "Fijo", 
     "tipoEmision" : "General", 
     "formaPago" : "Bocas de Cobro", 
     "dirPostalId" : "Gomez Isleño", 
     "fAlta" : ISODate("2016-07-22T20:01:32.364+0000"), 
-    "fUM" : ISODate("2016-07-22T20:01:32.364+0000"), 
+    "fUM" : ISODate("2016-07-23T18:28:04.037+0000"), 
     "fBaja" : ISODate("2016-07-22T20:01:32.364+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "WpDZgNfhBDJq5vcEe", 
+    "clienteId" : "FHLWWP36BPNwnNmtn", 
+    "nombre" : "Cuenta Principal", 
+    "indCortable" : false, 
+    "tipoVencimiento" : "General", 
+    "tipoEmision" : "General", 
+    "formaPago" : "Bocas de Cobro", 
+    "dirPostalId" : "Sargento Cabral", 
+    "fAlta" : ISODate("2016-07-23T18:27:22.965+0000"), 
+    "fUM" : ISODate("2016-07-23T18:27:22.965+0000"), 
+    "fBaja" : ISODate("2016-07-23T18:27:22.965+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj"
 }

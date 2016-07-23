@@ -1,12 +1,13 @@
 AutoForm.hooks({
-	atClientesFormSearchTemplate: {
+	buscaClientesForm: {
 
-		onSubmit: function(insertDoc, updateDoc, currentDoc) {
-			if (typeof clienteSubscript !== 'undefined') {
+		onSuccess: function(formType, result) {
+		if (typeof clienteSubscript !== 'undefined') {
 	    		clienteSubscript.stop();
-	    	};
-			clienteSubscript = Meteor.subscribe("clientesPublish", result, null, null, null);
-		},
+	    	};			
+			clienteSubscript = Meteor.subscribe("clientesPublish", null, result.apellido, result.nombres, result.documentoNro);
+	    },
+
 
 		onError: function(formType, error) {
 			alert(error);
@@ -17,6 +18,6 @@ AutoForm.hooks({
 
 Template.atClientesListTemplate.helpers({
 	resultsVar: function() {
-		return Clientes.find({});
+		return Clientes.find();
 	}
 })

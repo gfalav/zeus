@@ -374,3 +374,19 @@
     "fLog" : ISODate("2016-07-22T20:01:32.432+0000"), 
     "usuario" : "pYMPmvPew3eYo7NNj"
 }
+{ 
+    "_id" : "KdjSm3hWjGdNR9Wr2", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "WpDZgNfhBDJq5vcEe", 
+    "fLog" : ISODate("2016-07-23T18:27:22.980+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}
+{ 
+    "_id" : "MB2J8oR9dB6vGHwXy", 
+    "entorno" : "AtClientes", 
+    "tipo" : "idCuenta", 
+    "idCollection" : "THXEaEJw6Ek9Wfiey", 
+    "fLog" : ISODate("2016-07-23T18:28:04.046+0000"), 
+    "usuario" : "pYMPmvPew3eYo7NNj"
+}

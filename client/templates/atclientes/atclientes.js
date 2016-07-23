@@ -1,7 +1,6 @@
 Template.atClientesTreeview.helpers({
 	treeVar: function() {
-		
-		clienteSubscript = Meteor.subscribe("clientesPublish", this._id, null, null, null);
+
 		cuentaSubscript = Meteor.subscribe("cuentasPublish", this._id);
 
 		cuentas = Cuentas.find({'clienteId': this._id});
