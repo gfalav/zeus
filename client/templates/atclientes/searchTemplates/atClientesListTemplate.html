@@ -2,12 +2,12 @@
 	<div class="col-xs-9 col-sm-9">
 		<div class="list-group">
 			{{#each resultsVar}}
-				<a href="{{ pathFor 'atClientesResumen' }}" class="list-group-item list-group-item-info">{{> resultDetails }}</a>
+				<a href="{{ pathFor 'atClientesResumen' }}" class="list-group-item">{{> resultDetails }}</a>
 			{{/each}}
 		</div>
 	</div>
 </template>
 
 <template name="resultDetails">
-	{{apellido}}, {{nombres}} - {{documentoNro}} - {{suministro}} - {{direccionSum}}
+	<b>{{apellido}}, {{nombres}}</b> - {{documentoNro}} - {{suministro}} - {{direccionSum}}
 </template>

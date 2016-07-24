@@ -7,11 +7,11 @@
 			       		{{> afQuickField name='nombre'}}
 		       	</div>
 			     <div class="col-xs-3 col-sm-3">
-			     	{{#if this.cuentaId}}
-			     		{{> afQuickField name='cuentaId' }}
-					{{ else }}			     	
-			     		{{> afQuickField name='cuentaId' type="select" options=cuentaIdForm }}
-			     	{{/if }}
+			     		{{#if (formId) }}
+				     		{{> afQuickField name='cuentaId' type="select" options=cuentaIdForm }}
+				     	{{else}}
+			     			{{> afQuickField name='cuentaId' }}
+			     		{{/if}}
 			    </div>
 			    <div class="col-xs-3 col-sm-3">
 		       		{{> afQuickField name='tipoContrato' options="allowed" firstOption=true}}

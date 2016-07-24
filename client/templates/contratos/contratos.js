@@ -6,15 +6,38 @@ Template.contratosListTemplate.helpers({
 
 Template.contratosForm.helpers({
 	cuentaIdForm: function() {
-		cuentas = Cuentas.find({'clienteId': this._id}).fetch();
 		optionsarr = [];
-		cuentas.forEach( function(cuenta) {
-			obj = {};
-			obj.label = cuenta.nombre;
-			obj.value = cuenta._id;
-			optionsarr.push(obj);
-		});
+
+		if (AutoForm.getFormId()=="insertCustonContratosForm") {
+			cuentas = Cuentas.find({'clienteId': this._id}).fetch();
+			optionsarr = [];
+			cuentas.forEach( function(cuenta) {
+				obj = {};
+				obj.label = cuenta.nombre;
+				obj.value = cuenta._id;
+				optionsarr.push(obj);
+			});
+		} else if (AutoForm.getFormId()=="updateCustonContratosForm") {
+			cuenta = Cuentas.findOne({'clienteId': cuenta.clienteId});
+			cuentas = Cuentas.find({'clienteId': cuenta.clienteId}).fetch();
+			optionsarr = [];
+			cuentas.forEach( function(cuenta) {
+				obj = {};
+				obj.label = cuenta.nombre;
+				obj.value = cuenta._id;
+				optionsarr.push(obj);
+			});
+		}
+
 		return optionsarr;
+	},
+
+	formId: function() {
+		if (AutoForm.getFormId()=="showCustonContratosForm") {
+			return false
+		} else {
+			return true
+		}
 	}
 })
 
