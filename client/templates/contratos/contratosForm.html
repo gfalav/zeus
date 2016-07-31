@@ -1,26 +1,18 @@
 <template name="contratosForm">
 	<fieldset>
-	<legend>Información del Contrato</legend>
+		<legend>Información del Contrato</legend>
 		<div class="col-xs-12 col-sm-12">
-		  	<div class="col-xs-12 col-sm-12">
-		      	<div class="col-xs-3 col-sm-3">
-			       		{{> afQuickField name='nombre'}}
-		       	</div>
-			     <div class="col-xs-3 col-sm-3">
-			     		{{#if (formId) }}
-				     		{{> afQuickField name='cuentaId' type="select" options=cuentaIdForm }}
-				     	{{else}}
-			     			{{> afQuickField name='cuentaId' }}
-			     		{{/if}}
-			    </div>
-			    <div class="col-xs-3 col-sm-3">
-		       		{{> afQuickField name='tipoContrato' options="allowed" firstOption=true}}
-		        </div>
-		      	<div class="col-xs-3 col-sm-3">
-		       		{{> afQuickField name='estadoContrato' options="allowed" firstOption=true}}
-	          	</div>
+	    	<div class="col-xs-3 col-sm-3">
+				{{#if (formId) }}
+			   		{{> afQuickField name='cuentaId' type="select" options=cuentaIdForm }}
+			   	{{else}}
+					{{> afQuickField name='cuentaId' }}
+				{{/if}}
+			</div>
+			<div class="col-xs-3 col-sm-3">
+		    	{{> afQuickField name='tipoContrato' options="allowed" firstOption=true}}
 		    </div>
-		   	<div class="col-xs-12 col-sm-12">
+		   	<div class="col-xs-3 col-sm-3">
 		   		{{> afQuickField name='_id' type="hidden"}}
 		   	</div>
 		</div>
